@@ -1,0 +1,39 @@
+h1, h2 {
+  text-shadow: 5px 5px 5px white;
+}
+
+h1 {
+  color: gray;
+}
+
+h2 {
+  color: black;
+}
+
+h3 {
+  color: #0A0059;
+}
+
+body {
+  background-image: url("fondo.jpg") 
+}
+
+h1 {
+  font: 500% sans-serif;
+}
+
+p, center {
+  color: #CBA3F5;
+}
+
+p {
+  font: 150% sans-serif ;
+}
+
+h2 {
+  font: 300% sans-serif ;
+}
+
+h3 {
+  font: 200% sans-serif ;
+}

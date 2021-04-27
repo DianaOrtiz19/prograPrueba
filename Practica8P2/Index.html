@@ -1,0 +1,30 @@
+<html>
+<head> <title> area de un triangulo </title> <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1> Calcula el area de un triangulo </h1>
+<script language="javascript">
+
+function Area()
+        {
+     var area, base, altura;
+            base = prompt("Coloca la base");
+            altura = prompt("Coloca la altura");
+
+            base = parseInt(base);
+            altura = parseInt(altura);
+            area = (base * altura)/2;
+            
+            document.write("<h3> Área de un triángulo</h3>");
+            document.write(" Base triángulo " + base + ".</font><br>");
+            document.write(" Altura triángulo " + altura + ".</font><br><br>");
+             document.write(" Área de un triángulo es " + area + ".</font>");
+
+        }
+    </script>
+  <form name="form1">
+      <input type="button" value="calcular" onclick=Area()>
+   </form>
+   </center>
+  </body>
+</html> 
